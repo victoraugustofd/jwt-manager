@@ -1,0 +1,19 @@
+# ignore everything
+*
+
+# accept directories
+!*/
+
+# accept files in folders
+!.github/workflows/*.yml
+!jwt_manager/**/*.py
+!tests/**/*.py
+!tests/**/*.env
+
+# accept files in root
+!/.gitignore
+!README*.md
+!LICENSE
+!setup.py
+!pyproject.toml
+!.coveragerc
